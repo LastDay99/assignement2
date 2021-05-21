@@ -23,5 +23,11 @@ cacheinv <- function(x, ...) {
         m
 }
 
+# a little exemple to show you the result
+
+#matr <- makematrix(matrix(c(1,0,0,2,1,0,3,3,3),ncol=3,nrow=3))
+#matr$get()
+#cacheinv(matr) to solve the matrix
+#cacheinv(matr) this time with the message
 
 
